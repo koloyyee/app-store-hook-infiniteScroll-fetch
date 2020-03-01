@@ -4,14 +4,12 @@ import styled from "styled-components";
 import useReducerFetch from "../Hooks/useReducerFetch";
 
 const Horizontal = styled.div`
+  position: sticky;
+  top:0%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   overflow-x: scroll;
-  width: 80vw;
-  position: fixed;
-  padding-top: 5vw;
-  left: 10%;
   background-color: white;
 `;
 
@@ -27,7 +25,7 @@ const FreeApp = styled.div`
 
 const FreeAppName = styled.div`
   color: rgb(62, 62, 62);
-  font-size: 0.8em;
+  font-size: 0.8vw;
   transition: font-weight 0.5s;
   ${FreeApp}:hover & {
     font-weight: 600;
@@ -37,7 +35,7 @@ const FreeAppName = styled.div`
 
 const FreeAppGenres = styled.div`
   color: lightgrey;
-  font-size: 0.5em;
+  font-size: 0.5vw;
   font-weight: 600;
   transition: font-weight 0.5s;
   transition: color 0.5s;
@@ -77,18 +75,18 @@ const TopFree: React.FC = () => {
           ? "...loading"
           : apps.results.map((app, i) => {
               return (
-                <FreeApp  key={i}>
+                <FreeApp key={i}>
+                  <FreeAppName>{app.name}</FreeAppName>
+                  <FreeAppGenres>{app.genres[0].name}</FreeAppGenres>
                   <FreeAppImg
                     src={app.artworkUrl100}
                     alt={app.name + " image"}
                   />
-                  <FreeAppName>{app.name}</FreeAppName>
-                  <FreeAppGenres>{app.genres[0].name}</FreeAppGenres>
                 </FreeApp>
               );
             })}
 
-        <div id="preload"></div>
+        <div id="preload" style={{ padding: "1em" }}></div>
       </Horizontal>
     </>
   );

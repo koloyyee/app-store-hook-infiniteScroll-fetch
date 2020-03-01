@@ -1,8 +1,5 @@
 import { useEffect, useState } from 'react';
 
-
-
-
 export const  useFetch = (category :string, amount:number) =>{
 
     const[state, setState] = useState({data: null , loading:true})

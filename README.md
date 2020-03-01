@@ -1,3 +1,9 @@
+### Motivation
+
+This is a tiny project to practice how to use React Hooks,
+it also included infinite scroll without any packages,
+but with the help of IntersectionObserver.
+----------------------------------------------------------------------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

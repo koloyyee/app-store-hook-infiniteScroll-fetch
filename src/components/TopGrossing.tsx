@@ -4,18 +4,47 @@ import React, { useState, useEffect } from "react";
 
 const Vertical = styled.div`
   overflow-y: scroll;
-  top: 20vw;
-  position:relative;
-  height: 60vw;
+  text-align:center;
+  height: 100vw;
+  `;
+
+const GrossingApp = styled.div`
+  display: flex;
+  justify-content: start;
+  padding: 1vw;
+  margin: 1vw;
+  border-bottom: 1px solid darkgrey;
+  border-radius: 1vw;
+`;
+const GrossingAppImg = styled.img`
+  justify-content: flex-start;
+  width: 4vw;
+  border-radius: 5%;
+  margin-right: 0.5vw;
 `;
 
-const GrossingApp = styled.div``;
+const GrossingAppName = styled.div`
+  color: rgb(62, 62, 62);
+  font-size: 0.8em;
+  transition: font-weight 0.5s;
+  ${GrossingApp}:hover & {
+    font-weight: 600;
+    box-shadow: 1vw 1vw 5% grey;
+  }
+`;
 
-const GrossingAppName = styled.div``;
-
-const GrossingAppImg = styled.img``;
-
-const GrossingAppGenres = styled.div``;
+const GrossingAppGenres = styled.div`
+  color: lightgrey;
+  font-size: 0.5em;
+  font-weight: 600;
+  transition: font-weight 0.5s;
+  transition: color 0.5s;
+  ${GrossingApp}:hover & {
+    font-weight: 1000;
+    box-shadow: 1vw 1vw 5% grey;
+    color: grey;
+  }
+`;
 
 const TopGrossing = () => {
   const [amount, setAmount] = useState(10);
@@ -50,13 +79,14 @@ const TopGrossing = () => {
                   src={app.artworkUrl100}
                   alt={app.name + " image"}
                 />
-                <GrossingAppName>{app.name}</GrossingAppName>
-                <GrossingAppGenres>{app.genres[0].name}</GrossingAppGenres>
+                  <GrossingAppName>{app.name}</GrossingAppName>
+                  <></>
+                  <GrossingAppGenres>{app.genres[0].name}</GrossingAppGenres>
               </GrossingApp>
             );
           })}
 
-      <div id="grossing-preload" style={{padding: '1em'}}></div>
+      <div id="grossing-preload" style={{ padding: "1em" }}></div>
     </Vertical>
   );
 };
