@@ -1,0 +1,286 @@
+{
+    "feed": {
+        "title": "Top Free iPhone Apps",
+        "id": "https://rss.itunes.apple.com/api/v1/hk/ios-apps/top-free/all/10/explicit.json",
+        "author": {
+            "name": "iTunes Store",
+            "uri": "http://wwww.apple.com/hk/itunes/"
+        },
+        "links": [
+            {
+                "self": "https://rss.itunes.apple.com/api/v1/hk/ios-apps/top-free/all/10/explicit.json"
+            },
+            {
+                "alternate": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=36\u0026popId=27"
+            }
+        ],
+        "copyright": "Copyright © 2018 Apple Inc. All rights reserved.",
+        "country": "hk",
+        "icon": "http://itunes.apple.com/favicon.ico",
+        "updated": "2020-02-28T03:23:01.000-08:00",
+        "results": [
+            {
+                "artistName": "Japan Home Centre (HK) Ltd.",
+                "id": "439164971",
+                "releaseDate": "2011-05-25",
+                "name": "JHC 日本城 JFUN",
+                "kind": "iosSoftware",
+                "copyright": "© Japan Home Centre 日本城",
+                "artistId": "439164974",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://apps.apple.com/hk/developer/japan-home-centre-hk-ltd/id439164974",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/87/3f/78/873f78c3-aeaa-eff2-48de-9cfe2c2e09d5/AppIcon-0-1x_U007emarketing-0-0-85-220-0-10.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    },
+                    {
+                        "genreId": "6000",
+                        "name": "商業",
+                        "url": "https://itunes.apple.com/hk/genre/id6000"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/jhc-%E6%97%A5%E6%9C%AC%E5%9F%8E-jfun/id439164971"
+            },
+            {
+                "artistName": "Zoom",
+                "id": "546505307",
+                "releaseDate": "2012-08-15",
+                "name": "ZOOM Cloud Meetings",
+                "kind": "iosSoftware",
+                "copyright": "© Zoom Video Communications, Inc",
+                "artistId": "530594111",
+                "artistUrl": "https://apps.apple.com/hk/developer/zoom/id530594111",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/3d/64/8e/3d648efc-19ec-e553-c477-aa2ecff8a3fd/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6000",
+                        "name": "商業",
+                        "url": "https://itunes.apple.com/hk/genre/id6000"
+                    },
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/zoom-cloud-meetings/id546505307"
+            },
+            {
+                "artistName": "Construction Industry Council",
+                "id": "985904083",
+                "releaseDate": "2015-05-28",
+                "name": "安全錦囊",
+                "kind": "iosSoftware",
+                "copyright": "© Construction Industry Council and Development Bureau of the HKSAR Government",
+                "artistId": "547549345",
+                "artistUrl": "https://apps.apple.com/hk/developer/construction-industry-council/id547549345",
+                "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/e5/3d/0d/e53d0d95-46ce-4716-4018-71fff9e693a9/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6002",
+                        "name": "工具程式",
+                        "url": "https://itunes.apple.com/hk/genre/id6002"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E5%AE%89%E5%85%A8%E9%8C%A6%E5%9B%8A/id985904083"
+            },
+            {
+                "artistName": "China Mobile Hong Kong Company Limited",
+                "id": "483513425",
+                "releaseDate": "2011-12-12",
+                "name": "MyLink - 連接．生活",
+                "kind": "iosSoftware",
+                "copyright": "© China Mobile Hong Kong Co. Ltd.",
+                "artistId": "416521538",
+                "artistUrl": "https://apps.apple.com/hk/developer/china-mobile-hong-kong-company-limited/id416521538",
+                "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/8f/7a/09/8f7a0951-11fa-fc24-8b62-62ecb1afbf34/AppIcon-0-1x_U007emarketing-0-0-85-220-0-9.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    },
+                    {
+                        "genreId": "6007",
+                        "name": "生產力工具",
+                        "url": "https://itunes.apple.com/hk/genre/id6007"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/mylink-%E9%80%A3%E6%8E%A5-%E7%94%9F%E6%B4%BB/id483513425"
+            },
+            {
+                "artistName": "The Burning Game Limited",
+                "id": "1484471304",
+                "releaseDate": "2020-02-19",
+                "name": "異塵餘生：庇護所Online",
+                "kind": "iosSoftware",
+                "copyright": "© The Burning Game Limited",
+                "artistId": "1434378731",
+                "artistUrl": "https://apps.apple.com/hk/developer/the-burning-game-limited/id1434378731",
+                "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/ce/f7/68/cef768b2-2fd0-0baf-ac53-f7021ca8bd01/AppIcon-0-0-1x_U007emarketing-0-0-0-9-0-0-85-220.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7015",
+                        "name": "模擬",
+                        "url": "https://itunes.apple.com/hk/genre/id7015"
+                    },
+                    {
+                        "genreId": "7002",
+                        "name": "冒險",
+                        "url": "https://itunes.apple.com/hk/genre/id7002"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E7%95%B0%E5%A1%B5%E9%A4%98%E7%94%9F-%E5%BA%87%E8%AD%B7%E6%89%80online/id1484471304"
+            },
+            {
+                "artistName": "POSEIDON NET(HK) LIMITED",
+                "id": "1487782503",
+                "releaseDate": "2020-02-20",
+                "name": "無盡方舟",
+                "kind": "iosSoftware",
+                "copyright": "© 2018 Poseidon Game Limited. All Rights Reserved",
+                "artistId": "1456091480",
+                "contentAdvisoryRating": "Explicit",
+                "artistUrl": "https://apps.apple.com/hk/developer/poseidon-net-hk-limited/id1456091480",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/54/47/dc/5447dc81-1d74-a421-f5f6-cf93234047e1/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-85-220.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    },
+                    {
+                        "genreId": "7005",
+                        "name": "卡牌",
+                        "url": "https://itunes.apple.com/hk/genre/id7005"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E7%84%A1%E7%9B%A1%E6%96%B9%E8%88%9F/id1487782503"
+            },
+            {
+                "artistName": "Gameguru",
+                "id": "1500010832",
+                "releaseDate": "2020-02-25",
+                "name": "Slap Kings",
+                "kind": "iosSoftware",
+                "copyright": "© Gameguru",
+                "artistId": "978359163",
+                "artistUrl": "https://apps.apple.com/hk/developer/gameguru/id978359163",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/ea/69/41/ea69413a-4458-a9dc-0268-87650daffca8/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7003",
+                        "name": "休閒",
+                        "url": "https://itunes.apple.com/hk/genre/id7003"
+                    },
+                    {
+                        "genreId": "7001",
+                        "name": "動作",
+                        "url": "https://itunes.apple.com/hk/genre/id7001"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/slap-kings/id1500010832"
+            },
+            {
+                "artistName": "Foodpanda",
+                "id": "758103884",
+                "releaseDate": "2013-11-25",
+                "name": "foodpanda - 線上訂餐美食外送",
+                "kind": "iosSoftware",
+                "copyright": "© Foodpanda 2018",
+                "artistId": "606917985",
+                "artistUrl": "https://apps.apple.com/hk/developer/foodpanda/id606917985",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/c3/37/a0/c337a0fe-bc2e-22ec-c85e-42c28d2cd1cf/AppIcon-0-1x_U007emarketing-0-0-85-220-0-5.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6023",
+                        "name": "美食佳飲",
+                        "url": "https://itunes.apple.com/hk/genre/id6023"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/foodpanda-%E7%B7%9A%E4%B8%8A%E8%A8%82%E9%A4%90%E7%BE%8E%E9%A3%9F%E5%A4%96%E9%80%81/id758103884"
+            },
+            {
+                "artistName": "HSBC Global Services (UK) Limited",
+                "id": "1164066737",
+                "releaseDate": "2016-10-26",
+                "name": "HSBC HK 香港滙豐流動理財",
+                "kind": "iosSoftware",
+                "copyright": "© 2019 The Hongkong and Shanghai Banking Corporation Limited",
+                "artistId": "1112071557",
+                "artistUrl": "https://apps.apple.com/hk/developer/hsbc-global-services-uk-limited/id1112071557",
+                "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/68/90/99/68909947-3728-f29a-a5e5-d51563f37d7d/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-7.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6015",
+                        "name": "理財",
+                        "url": "https://itunes.apple.com/hk/genre/id6015"
+                    },
+                    {
+                        "genreId": "6012",
+                        "name": "生活風格",
+                        "url": "https://itunes.apple.com/hk/genre/id6012"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/hsbc-hk-%E9%A6%99%E6%B8%AF%E6%BB%99%E8%B1%90%E6%B5%81%E5%8B%95%E7%90%86%E8%B2%A1/id1164066737"
+            },
+            {
+                "artistName": "Gameone Group Ltd",
+                "id": "948626031",
+                "releaseDate": "2015-02-11",
+                "name": "天龍八部3d-波斯明教聖火來襲",
+                "kind": "iosSoftware",
+                "copyright": "© Gameone Group Limited",
+                "artistId": "685890795",
+                "artistUrl": "https://apps.apple.com/hk/developer/gameone-group-ltd/id685890795",
+                "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/1d/8c/e1/1d8ce119-83cc-7b75-cb07-d0fdd0bbb685/AppIcon-0-1x_U007emarketing-85-220-9.png/200x200bb.png",
+                "genres": [
+                    {
+                        "genreId": "6014",
+                        "name": "遊戲",
+                        "url": "https://itunes.apple.com/hk/genre/id6014"
+                    },
+                    {
+                        "genreId": "7014",
+                        "name": "RPG",
+                        "url": "https://itunes.apple.com/hk/genre/id7014"
+                    },
+                    {
+                        "genreId": "6016",
+                        "name": "娛樂",
+                        "url": "https://itunes.apple.com/hk/genre/id6016"
+                    },
+                    {
+                        "genreId": "7001",
+                        "name": "動作",
+                        "url": "https://itunes.apple.com/hk/genre/id7001"
+                    }
+                ],
+                "url": "https://apps.apple.com/hk/app/%E5%A4%A9%E9%BE%8D%E5%85%AB%E9%83%A83d-%E6%B3%A2%E6%96%AF%E6%98%8E%E6%95%99%E8%81%96%E7%81%AB%E4%BE%86%E8%A5%B2/id948626031"
+            }
+        ]
+    }
+}
