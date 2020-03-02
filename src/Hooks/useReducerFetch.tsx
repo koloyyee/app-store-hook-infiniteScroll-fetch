@@ -43,9 +43,6 @@ const useReducerFetch=(category:string, amount:number)=>{
     useEffect(()=>{
         if (amount < 101){
             fetchApps(category, amount)
-            console.log('fetched ' + amount +' keep going!')
-        } else {
-            console.log( amount + " items fetched! Stop!")
         }
 
         return ;

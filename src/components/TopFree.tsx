@@ -11,21 +11,26 @@ const Horizontal = styled.div`
   justify-content: center;
   overflow-x: scroll;
   background-color: white;
+  align-content- space-between;
 `;
 
 const FreeAppImg = styled.img`
-  width: 5vw;
+  max-width: 8vw;
+  max-height: 8vw;
+  min-width: 40px;
+  min-height: 40px;
   border-radius: 5%;
+  padding: 2vw;
+
 `;
 
 const FreeApp = styled.div`
-  padding: 1vw;
-  max-height: 12vw;
+  padding: 2vw;
 `;
 
 const FreeAppName = styled.div`
   color: rgb(62, 62, 62);
-  font-size: 0.8vw;
+  font-size: 0.5rem;
   transition: font-weight 0.5s;
   ${FreeApp}:hover & {
     font-weight: 600;
@@ -35,7 +40,7 @@ const FreeAppName = styled.div`
 
 const FreeAppGenres = styled.div`
   color: lightgrey;
-  font-size: 0.5vw;
+  font-size: 0.5rem;
   font-weight: 600;
   transition: font-weight 0.5s;
   transition: color 0.5s;
@@ -47,7 +52,6 @@ const FreeAppGenres = styled.div`
 `;
 
 const TopFree: React.FC = () => {
-  // const [isFetching, setIsFetching] = useState(false);
   const [amount, setAmount] = useState(10);
   const { apps, isLoading } = useReducerFetch("top-free", amount);
 
@@ -56,7 +60,6 @@ const TopFree: React.FC = () => {
       entries.forEach(entry => {
         if (entry.intersectionRatio > 0) {
           setAmount(currentAmount => currentAmount + 10);
-          console.log(" fetching by scroll ");
         }
       });
     };
